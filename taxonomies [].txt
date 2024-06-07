@@ -4,213 +4,347 @@
   fields []
     fieldName = Country
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = Platform
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = CampaignType
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = CampaignObjective
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = InventoryDevice
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = LandingDevice
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = Tactic
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = Wildcard
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = Department
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = SeasonTitle
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = SesasonID
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = creatorEmail
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = creatorName
     isFreeform b = true
+    isRequired b = true
+    order n = 1
 taxonomies []
   objectName = Ad
   separator = |
   fields []
     fieldName = assetType
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = contentID
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = contentName
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = destination
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = language
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = wildcard
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = fullContent
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = creatorEmail
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = creatorName
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = department
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = output
     isFreeform b = true
+    isRequired b = true
+    order n = 1
 taxonomies []
   objectName = Placement
   separator = |
   fields []
     fieldName = contentID
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = contentName
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = wildcard
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = creatorEmail
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = creatorName
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = department
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = Country
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = sitePublisher
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = sitePublisherOther
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = CampaignTarget
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = CampaignTargetOther
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = Format
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = MediaFormat
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = MediaType
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = Size
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = output
     isFreeform b = true
+    isRequired b = true
+    order n = 1
 taxonomies []
   objectName = adGroup
   separator = |
   fields []
     fieldName = audienceTypeOld
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = campaignTypeOld
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = contentID
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = contentName
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = countryTypesOld
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = destinationOld
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = placement
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = source
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = wildcard
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = creatorEmail
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = creatorName
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = department
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = output
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = 
     isFreeform b = true
+    isRequired b = true
+    order n = 1
 taxonomies []
   objectName = lineItem
   separator = |
   fields []
     fieldName = audienceType
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = campaignType
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = creatorEmail
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = creatorName
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = department
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = destination
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = output
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = wildcard
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = country
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = sitePubliser
     isFreeform b = false
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = sitePublisherOther
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = campaignObjective
     isFreeform b = true
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = device
     isFreeform b = true
+    isRequired b = true
+    order n = 1

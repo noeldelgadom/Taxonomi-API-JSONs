@@ -3,114 +3,182 @@
   separator = |
   fields []
     fieldName = Country
+    isRequired b = true
+    order n = 1
     allowedValues [] = MEX, BRA, CAN, GBR, IRL, ARG, GSA, FRA, ITA, AUS
   fields []
     fieldName = Platform
+    isRequired b = true
+    order n = 1
     allowedValues [] = Amazon, Amazon Fire TV, Apple, Bing, Google, Meta, Pinterest, Reddit, Roku, Samsung, Snapchat, TikTok, Twitter
   fields []
     fieldName = CampaignType
+    isRequired b = true
+    order n = 1
     allowedValues [] = Video, Display, Search, App, YouTube, pMax, Paid Social, OTT, Organic Social
   fields []
     fieldName = CampaignObjective
+    isRequired b = true
+    order n = 1
     allowedValues [] = Acquisition, Awareness, Winback
   fields []
     fieldName = InventoryDevice
+    isRequired b = true
+    order n = 1
     allowedValues [] = Web, Mobile, OTT, Multi
   fields []
     fieldName = LandingDevice
+    isRequired b = true
+    order n = 1
     allowedValues [] = Web, iOS, Android, OTT, Channels, App-Multi
   fields []
     fieldName = Tactic
+    isRequired b = true
+    order n = 1
     allowedValues [] = Title, Brand, Conquesting, Generic, Reach, Traffic, Engagement, Views, Conversion
   fields []
     fieldName = Department
+    isRequired b = true
+    order n = 1
     allowedValues [] = Standard
 MasterlistObject []
   objectName = Ad
   separator = |
   fields []
     fieldName = assetType
+    isRequired b = true
+    order n = 1
     allowedValues [] = Multi, Rich, Static, Search, Video
   fields []
     fieldName = destination
+    isRequired b = true
+    order n = 1
     allowedValues [] = App, Web
   fields []
     fieldName = language
+    isRequired b = true
+    order n = 1
     allowedValues [] = PT, DE, IT, FR, ES, EN
   fields []
     fieldName = department
+    isRequired b = true
+    order n = 1
     allowedValues [] = Standard
 MasterlistObject []
   objectName = Placement
   separator = |
   fields []
     fieldName = department
+    isRequired b = true
+    order n = 1
     allowedValues [] = Programmatic
   fields []
     fieldName = Country
+    isRequired b = true
+    order n = 1
     allowedValues [] = ARG, AUS, BRA, CAN, FRA, GSA, IRL, ITA, LATAM, MEX, ROLAC, UK
   fields []
     fieldName = sitePublisher
+    isRequired b = true
+    order n = 1
     allowedValues [] = DV360, AmazonDSP, Other
   fields []
     fieldName = CampaignTarget
+    isRequired b = true
+    order n = 1
     allowedValues [] = Interests, Keywords, Categories, Broad18+, Multi, Other
   fields []
     fieldName = Format
+    isRequired b = true
+    order n = 1
     allowedValues [] = DT, MO
   fields []
     fieldName = MediaFormat
+    isRequired b = true
+    order n = 1
     allowedValues [] = Standard, RichMedia, Native
   fields []
     fieldName = MediaType
+    isRequired b = true
+    order n = 1
     allowedValues [] = Image, Video, TrackingAd
   fields []
     fieldName = Size
+    isRequired b = true
+    order n = 1
     allowedValues [] = 1 x 1, 250 × 250, 300 × 250, 320 × 320, 336 × 280, 120 × 600, 160 × 600, 300 × 600, 300 × 1050, 468 × 60, 728 × 90, 800 × 250, 970 × 90, 970 × 250, 300 × 50, 300 × 100, 320 × 50, 320 × 100, 320 × 480, 360 × 592, 360 × 640, 375 × 667, 1280 × 720, 1920 × 1080,1440 × 1080, 720 × 1280, 1080 × 1920,1080 × 1440, 720 × 720, 1080 × 1080, 1920 × 1920
 MasterlistObject []
   objectName = adGroup
   separator = |
   fields []
     fieldName = audienceTypeOld
+    isRequired b = true
+    order n = 1
     allowedValues [] = LAL, In-Market, 1P, Interest, Open
   fields []
     fieldName = campaignTypeOld
+    isRequired b = true
+    order n = 1
     allowedValues [] = Paid Social, Display, Search, Youtube, UAC, pMax
   fields []
     fieldName = countryTypesOld
+    isRequired b = true
+    order n = 1
     allowedValues [] = MEX, BRA, CAN, GBR, IRL, ARG, GSA, FRA, ITA, AUS
   fields []
     fieldName = destinationOld
+    isRequired b = true
+    order n = 1
     allowedValues [] = Multi, Other, Android, iOS, Web
   fields []
     fieldName = placement
+    isRequired b = true
+    order n = 1
     allowedValues [] = Banner, Pre-Roll, Feed
   fields []
     fieldName = source
+    isRequired b = true
+    order n = 1
     allowedValues [] = Pinterest, Reddit, TikTok, SNAP, Bing, Google, Meta
   fields []
     fieldName = department
+    isRequired b = true
+    order n = 1
     allowedValues [] = Standard
 MasterlistObject []
   objectName = lineItem
   separator = |
   fields []
     fieldName = audienceType
+    isRequired b = true
+    order n = 1
     allowedValues [] = Affinity, InMarket, FirstParty, ThirdParty, CustomAffinity, LALs, InstalledApps, CustomList, Multi
   fields []
     fieldName = campaignType
+    isRequired b = true
+    order n = 1
     allowedValues [] = Display, Video, Youtube, CTV, Audio, App
   fields []
     fieldName = creatorEmail
+    isRequired b = true
+    order n = 1
   fields []
     fieldName = department
+    isRequired b = true
+    order n = 1
     allowedValues [] = Programmatic
   fields []
     fieldName = destination
+    isRequired b = true
+    order n = 1
     allowedValues [] = Web, App, All
   fields []
     fieldName = country
+    isRequired b = true
+    order n = 1
     allowedValues [] = ARG, AUS, BRA, CAN, FRA, GSA, IRL, ITA, LATAM, MEX, ROLAC, UK
   fields []
     fieldName = sitePubliser
+    isRequired b = true
+    order n = 1
     allowedValues [] = DV360, AmazonDSP, Other
