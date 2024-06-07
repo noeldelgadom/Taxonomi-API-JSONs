@@ -1,0 +1,116 @@
+﻿MasterlistObject []
+  objectName = Campaign
+  separator = |
+  fields []
+    fieldName = Country
+    allowedValues [] = MEX, BRA, CAN, GBR, IRL, ARG, GSA, FRA, ITA, AUS
+  fields []
+    fieldName = Platform
+    allowedValues [] = Amazon, Amazon Fire TV, Apple, Bing, Google, Meta, Pinterest, Reddit, Roku, Samsung, Snapchat, TikTok, Twitter
+  fields []
+    fieldName = CampaignType
+    allowedValues [] = Video, Display, Search, App, YouTube, pMax, Paid Social, OTT, Organic Social
+  fields []
+    fieldName = CampaignObjective
+    allowedValues [] = Acquisition, Awareness, Winback
+  fields []
+    fieldName = InventoryDevice
+    allowedValues [] = Web, Mobile, OTT, Multi
+  fields []
+    fieldName = LandingDevice
+    allowedValues [] = Web, iOS, Android, OTT, Channels, App-Multi
+  fields []
+    fieldName = Tactic
+    allowedValues [] = Title, Brand, Conquesting, Generic, Reach, Traffic, Engagement, Views, Conversion
+  fields []
+    fieldName = Department
+    allowedValues [] = Standard
+MasterlistObject []
+  objectName = Ad
+  separator = |
+  fields []
+    fieldName = assetType
+    allowedValues [] = Multi, Rich, Static, Search, Video
+  fields []
+    fieldName = destination
+    allowedValues [] = App, Web
+  fields []
+    fieldName = language
+    allowedValues [] = PT, DE, IT, FR, ES, EN
+  fields []
+    fieldName = department
+    allowedValues [] = Standard
+MasterlistObject []
+  objectName = Placement
+  separator = |
+  fields []
+    fieldName = department
+    allowedValues [] = Programmatic
+  fields []
+    fieldName = Country
+    allowedValues [] = ARG, AUS, BRA, CAN, FRA, GSA, IRL, ITA, LATAM, MEX, ROLAC, UK
+  fields []
+    fieldName = sitePublisher
+    allowedValues [] = DV360, AmazonDSP, Other
+  fields []
+    fieldName = CampaignTarget
+    allowedValues [] = Interests, Keywords, Categories, Broad18+, Multi, Other
+  fields []
+    fieldName = Format
+    allowedValues [] = DT, MO
+  fields []
+    fieldName = MediaFormat
+    allowedValues [] = Standard, RichMedia, Native
+  fields []
+    fieldName = MediaType
+    allowedValues [] = Image, Video, TrackingAd
+  fields []
+    fieldName = Size
+    allowedValues [] = 1 x 1, 250 × 250, 300 × 250, 320 × 320, 336 × 280, 120 × 600, 160 × 600, 300 × 600, 300 × 1050, 468 × 60, 728 × 90, 800 × 250, 970 × 90, 970 × 250, 300 × 50, 300 × 100, 320 × 50, 320 × 100, 320 × 480, 360 × 592, 360 × 640, 375 × 667, 1280 × 720, 1920 × 1080,1440 × 1080, 720 × 1280, 1080 × 1920,1080 × 1440, 720 × 720, 1080 × 1080, 1920 × 1920
+MasterlistObject []
+  objectName = adGroup
+  separator = |
+  fields []
+    fieldName = audienceTypeOld
+    allowedValues [] = LAL, In-Market, 1P, Interest, Open
+  fields []
+    fieldName = campaignTypeOld
+    allowedValues [] = Paid Social, Display, Search, Youtube, UAC, pMax
+  fields []
+    fieldName = countryTypesOld
+    allowedValues [] = MEX, BRA, CAN, GBR, IRL, ARG, GSA, FRA, ITA, AUS
+  fields []
+    fieldName = destinationOld
+    allowedValues [] = Multi, Other, Android, iOS, Web
+  fields []
+    fieldName = placement
+    allowedValues [] = Banner, Pre-Roll, Feed
+  fields []
+    fieldName = source
+    allowedValues [] = Pinterest, Reddit, TikTok, SNAP, Bing, Google, Meta
+  fields []
+    fieldName = department
+    allowedValues [] = Standard
+MasterlistObject []
+  objectName = lineItem
+  separator = |
+  fields []
+    fieldName = audienceType
+    allowedValues [] = Affinity, InMarket, FirstParty, ThirdParty, CustomAffinity, LALs, InstalledApps, CustomList, Multi
+  fields []
+    fieldName = campaignType
+    allowedValues [] = Display, Video, Youtube, CTV, Audio, App
+  fields []
+    fieldName = creatorEmail
+  fields []
+    fieldName = department
+    allowedValues [] = Programmatic
+  fields []
+    fieldName = destination
+    allowedValues [] = Web, App, All
+  fields []
+    fieldName = country
+    allowedValues [] = ARG, AUS, BRA, CAN, FRA, GSA, IRL, ITA, LATAM, MEX, ROLAC, UK
+  fields []
+    fieldName = sitePubliser
+    allowedValues [] = DV360, AmazonDSP, Other

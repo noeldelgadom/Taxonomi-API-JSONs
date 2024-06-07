@@ -1,0 +1,245 @@
+﻿combo []
+  objectName = Campaign
+  separator = |
+  fields []
+    fieldName = Country
+    isFreeform b = false
+    allowedValues [] = MEX, BRA, CAN, GBR, IRL, ARG, GSA, FRA, ITA, AUS
+  fields []
+    fieldName = Platform
+    isFreeform b = false
+    allowedValues [] = Amazon, Amazon Fire TV, Apple, Bing, Google, Meta, Pinterest, Reddit, Roku, Samsung, Snapchat, TikTok, Twitter
+  fields []
+    fieldName = CampaignType
+    isFreeform b = false
+    allowedValues [] = Video, Display, Search, App, YouTube, pMax, Paid Social, OTT, Organic Social
+  fields []
+    fieldName = CampaignObjective
+    isFreeform b = false
+    allowedValues [] = Acquisition, Awareness, Winback
+  fields []
+    fieldName = InventoryDevice
+    isFreeform b = false
+    allowedValues [] = Web, Mobile, OTT, Multi
+  fields []
+    fieldName = LandingDevice
+    isFreeform b = false
+    allowedValues [] = Web, iOS, Android, OTT, Channels, App-Multi
+  fields []
+    fieldName = Tactic
+    isFreeform b = false
+    allowedValues [] = Title, Brand, Conquesting, Generic, Reach, Traffic, Engagement, Views, Conversion
+  fields []
+    fieldName = Wildcard
+    isFreeform b = true
+  fields []
+    fieldName = Department
+    isFreeform b = false
+    allowedValues [] = Standard
+  fields []
+    fieldName = SeasonTitle
+    isFreeform b = true
+  fields []
+    fieldName = SeasonID
+    isFreeform b = true
+  fields []
+    fieldName = creatorEmail
+    isFreeform b = true
+  fields []
+    fieldName = creatorName
+    isFreeform b = true
+combo []
+  objectName = Ad
+  separator = |
+  fields []
+    fieldName = assetType
+    isFreeform b = false
+    allowedValues [] = Multi, Rich, Static, Search, Video
+  fields []
+    fieldName = contentID
+    isFreeform b = true
+  fields []
+    fieldName = contentName
+    isFreeform b = true
+  fields []
+    fieldName = destination
+    isFreeform b = false
+    allowedValues [] = App, Web
+  fields []
+    fieldName = language
+    isFreeform b = false
+    allowedValues [] = PT, DE, IT, FR, ES, EN
+  fields []
+    fieldName = wildcard
+    isFreeform b = true
+  fields []
+    fieldName = creatorEmail
+    isFreeform b = true
+  fields []
+    fieldName = creatorName
+    isFreeform b = true
+  fields []
+    fieldName = department
+    isFreeform b = false
+    allowedValues [] = Standard
+  fields []
+    fieldName = output
+    isFreeform b = true
+combo []
+  objectName = Placement
+  separator = |
+  fields []
+    fieldName = contentID
+    isFreeform b = true
+  fields []
+    fieldName = contentName
+    isFreeform b = true
+  fields []
+    fieldName = wildcard
+    isFreeform b = true
+  fields []
+    fieldName = creatorEmail
+    isFreeform b = true
+  fields []
+    fieldName = creatorName
+    isFreeform b = true
+  fields []
+    fieldName = department
+    isFreeform b = false
+    allowedValues [] = Programmatic
+  fields []
+    fieldName = Country
+    isFreeform b = false
+    allowedValues [] = ARG, AUS, BRA, CAN, FRA, GSA, IRL, ITA, LATAM, MEX, ROLAC, UK
+  fields []
+    fieldName = sitePublisher
+    isFreeform b = false
+    allowedValues [] = DV360, AmazonDSP, Other
+  fields []
+    fieldName = sitePublisherOther
+    isFreeform b = true
+  fields []
+    fieldName = CampaignTarget
+    isFreeform b = false
+    allowedValues [] = Interests, Keywords, Categories, Broad18+, Multi, Other
+  fields []
+    fieldName = CampaignTargetOther
+    isFreeform b = true
+  fields []
+    fieldName = Format
+    isFreeform b = false
+    allowedValues [] = DT, MO
+  fields []
+    fieldName = MediaFormat
+    isFreeform b = false
+    allowedValues [] = Standard, RichMedia, Native
+  fields []
+    fieldName = MediaType
+    isFreeform b = false
+    allowedValues [] = Image, Video, TrackingAd
+  fields []
+    fieldName = Size
+    isFreeform b = false
+    allowedValues [] = 1 x 1, 250 × 250, 300 × 250, 320 × 320, 336 × 280, 120 × 600, 160 × 600, 300 × 600, 300 × 1050, 468 × 60, 728 × 90, 800 × 250, 970 × 90, 970 × 250, 300 × 50, 300 × 100, 320 × 50, 320 × 100, 320 × 480, 360 × 592, 360 × 640, 375 × 667, 1280 × 720, 1920 × 1080,1440 × 1080, 720 × 1280, 1080 × 1920,1080 × 1440, 720 × 720, 1080 × 1080, 1920 × 1920
+  fields []
+    fieldName = output
+    isFreeform b = true
+combo []
+  objectName = adGroup
+  separator = |
+  fields []
+    fieldName = audienceTypeOld
+    isFreeform b = false
+    allowedValues [] = LAL, In-Market, 1P, Interest, Open
+  fields []
+    fieldName = campaignTypeOld
+    isFreeform b = false
+    allowedValues [] = Paid Social, Display, Search, Youtube, UAC, pMax
+  fields []
+    fieldName = contentID
+    isFreeform b = true
+  fields []
+    fieldName = contentName
+    isFreeform b = true
+  fields []
+    fieldName = countryTypesOld
+    isFreeform b = false
+    allowedValues [] = MEX, BRA, CAN, GBR, IRL, ARG, GSA, FRA, ITA, AUS
+  fields []
+    fieldName = destinationOld
+    isFreeform b = false
+    allowedValues [] = Multi, Other, Android, iOS, Web
+  fields []
+    fieldName = placement
+    isFreeform b = false
+    allowedValues [] = Banner, Pre-Roll, Feed
+  fields []
+    fieldName = source
+    isFreeform b = false
+    allowedValues [] = Pinterest, Reddit, TikTok, SNAP, Bing, Google, Meta
+  fields []
+    fieldName = wildcard
+    isFreeform b = true
+  fields []
+    fieldName = creatorEmail
+    isFreeform b = true
+  fields []
+    fieldName = creatorName
+    isFreeform b = true
+  fields []
+    fieldName = department
+    isFreeform b = false
+    allowedValues [] = Standard
+  fields []
+    fieldName = output
+    isFreeform b = true
+combo []
+  objectName = lineItem
+  separator = |
+  fields []
+    fieldName = audienceType
+    isFreeform b = false
+    allowedValues [] = Affinity, InMarket, FirstParty, ThirdParty, CustomAffinity, LALs, InstalledApps, CustomList, Multi
+  fields []
+    fieldName = campaignType
+    isFreeform b = false
+    allowedValues [] = Display, Video, Youtube, CTV, Audio, App
+  fields []
+    fieldName = creatorEmail
+    isFreeform b = true
+  fields []
+    fieldName = creatorName
+    isFreeform b = true
+  fields []
+    fieldName = department
+    isFreeform b = false
+    allowedValues [] = Programmatic
+  fields []
+    fieldName = destination
+    isFreeform b = false
+    allowedValues [] = Web, App, All
+  fields []
+    fieldName = output
+    isFreeform b = true
+  fields []
+    fieldName = wildcard
+    isFreeform b = true
+  fields []
+    fieldName = country
+    isFreeform b = false
+    allowedValues [] = ARG, AUS, BRA, CAN, FRA, GSA, IRL, ITA, LATAM, MEX, ROLAC, UK
+  fields []
+    fieldName = sitePublisher
+    isFreeform b = false
+    allowedValues [] = DV360, AmazonDSP, Other
+  fields []
+    fieldName = sitePublisherOther
+    isFreeform b = true
+  fields []
+    fieldName = campaignObjective
+    isFreeform b = false
+    allowedValues [] = Acquisition, Consideration, Awareness, Retention, Winback
+  fields []
+    fieldName = device
+    isFreeform b = true
+    allowedValues [] = Desktop, Mobile, CTV, Multi, All

@@ -1,0 +1,216 @@
+﻿taxonomies []
+  objectName = Campaign
+  separator = |
+  fields []
+    fieldName = Country
+    isFreeform b = false
+  fields []
+    fieldName = Platform
+    isFreeform b = false
+  fields []
+    fieldName = CampaignType
+    isFreeform b = false
+  fields []
+    fieldName = CampaignObjective
+    isFreeform b = false
+  fields []
+    fieldName = InventoryDevice
+    isFreeform b = false
+  fields []
+    fieldName = LandingDevice
+    isFreeform b = false
+  fields []
+    fieldName = Tactic
+    isFreeform b = false
+  fields []
+    fieldName = Wildcard
+    isFreeform b = true
+  fields []
+    fieldName = Department
+    isFreeform b = false
+  fields []
+    fieldName = SeasonTitle
+    isFreeform b = true
+  fields []
+    fieldName = SesasonID
+    isFreeform b = true
+  fields []
+    fieldName = creatorEmail
+    isFreeform b = true
+  fields []
+    fieldName = creatorName
+    isFreeform b = true
+taxonomies []
+  objectName = Ad
+  separator = |
+  fields []
+    fieldName = assetType
+    isFreeform b = false
+  fields []
+    fieldName = contentID
+    isFreeform b = true
+  fields []
+    fieldName = contentName
+    isFreeform b = true
+  fields []
+    fieldName = destination
+    isFreeform b = false
+  fields []
+    fieldName = language
+    isFreeform b = false
+  fields []
+    fieldName = wildcard
+    isFreeform b = true
+  fields []
+    fieldName = fullContent
+    isFreeform b = true
+  fields []
+    fieldName = creatorEmail
+    isFreeform b = true
+  fields []
+    fieldName = creatorName
+    isFreeform b = true
+  fields []
+    fieldName = department
+    isFreeform b = false
+  fields []
+    fieldName = output
+    isFreeform b = true
+taxonomies []
+  objectName = Placement
+  separator = |
+  fields []
+    fieldName = contentID
+    isFreeform b = true
+  fields []
+    fieldName = contentName
+    isFreeform b = true
+  fields []
+    fieldName = wildcard
+    isFreeform b = true
+  fields []
+    fieldName = creatorEmail
+    isFreeform b = true
+  fields []
+    fieldName = creatorName
+    isFreeform b = true
+  fields []
+    fieldName = department
+    isFreeform b = false
+  fields []
+    fieldName = Country
+    isFreeform b = false
+  fields []
+    fieldName = sitePublisher
+    isFreeform b = false
+  fields []
+    fieldName = sitePublisherOther
+    isFreeform b = true
+  fields []
+    fieldName = CampaignTarget
+    isFreeform b = false
+  fields []
+    fieldName = CampaignTargetOther
+    isFreeform b = true
+  fields []
+    fieldName = Format
+    isFreeform b = false
+  fields []
+    fieldName = MediaFormat
+    isFreeform b = false
+  fields []
+    fieldName = MediaType
+    isFreeform b = false
+  fields []
+    fieldName = Size
+    isFreeform b = false
+  fields []
+    fieldName = output
+    isFreeform b = true
+taxonomies []
+  objectName = adGroup
+  separator = |
+  fields []
+    fieldName = audienceTypeOld
+    isFreeform b = false
+  fields []
+    fieldName = campaignTypeOld
+    isFreeform b = false
+  fields []
+    fieldName = contentID
+    isFreeform b = true
+  fields []
+    fieldName = contentName
+    isFreeform b = true
+  fields []
+    fieldName = countryTypesOld
+    isFreeform b = false
+  fields []
+    fieldName = destinationOld
+    isFreeform b = false
+  fields []
+    fieldName = placement
+    isFreeform b = false
+  fields []
+    fieldName = source
+    isFreeform b = false
+  fields []
+    fieldName = wildcard
+    isFreeform b = true
+  fields []
+    fieldName = creatorEmail
+    isFreeform b = true
+  fields []
+    fieldName = creatorName
+    isFreeform b = true
+  fields []
+    fieldName = department
+    isFreeform b = true
+  fields []
+    fieldName = output
+    isFreeform b = true
+  fields []
+    fieldName = 
+    isFreeform b = true
+taxonomies []
+  objectName = lineItem
+  separator = |
+  fields []
+    fieldName = audienceType
+    isFreeform b = false
+  fields []
+    fieldName = campaignType
+    isFreeform b = false
+  fields []
+    fieldName = creatorEmail
+    isFreeform b = true
+  fields []
+    fieldName = creatorName
+    isFreeform b = true
+  fields []
+    fieldName = department
+    isFreeform b = false
+  fields []
+    fieldName = destination
+    isFreeform b = false
+  fields []
+    fieldName = output
+    isFreeform b = true
+  fields []
+    fieldName = wildcard
+    isFreeform b = true
+  fields []
+    fieldName = country
+    isFreeform b = false
+  fields []
+    fieldName = sitePubliser
+    isFreeform b = false
+  fields []
+    fieldName = sitePublisherOther
+    isFreeform b = true
+  fields []
+    fieldName = campaignObjective
+    isFreeform b = true
+  fields []
+    fieldName = device
+    isFreeform b = true
