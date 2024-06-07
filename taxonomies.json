@@ -1,0 +1,436 @@
+{
+    "taxonomies": [
+      {
+        "objectName": "Campaign",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "Country",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "Platform",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "CampaignType",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "CampaignObjective",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "InventoryDevice",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "LandingDevice",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "Tactic",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "Wildcard",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "Department",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "SeasonTitle",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "SesasonID",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "objectName": "Ad",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "assetType",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "contentID",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "contentName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "destination",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "language",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "wildcard",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "fullContent",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "department",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "output",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "objectName": "Placement",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "contentID",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "contentName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "wildcard",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "department",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "Country",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "sitePublisher",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "sitePublisherOther",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "CampaignTarget",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "CampaignTargetOther",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "Format",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "MediaFormat",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "MediaType",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "Size",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "output",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "objectName": "adGroup",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "audienceTypeOld",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "campaignTypeOld",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "contentID",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "contentName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "countryTypesOld",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "destinationOld",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "placement",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "source",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "wildcard",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "department",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "output",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "objectName": "lineItem",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "audienceType",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "campaignType",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "department",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "destination",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "output",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "wildcard",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "country",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "sitePubliser",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "sitePublisherOther",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "campaignObjective",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "device",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          }
+        ]
+      }
+    ]
+  }

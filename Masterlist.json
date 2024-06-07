@@ -1,0 +1,471 @@
+{
+    "MasterlistObject": [
+      {
+        "objectName": "Campaign",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "Country",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "MEX",
+              "BRA",
+              "CAN",
+              "GBR",
+              "IRL",
+              "ARG",
+              "GSA",
+              "FRA",
+              "ITA",
+              "AUS"
+            ]
+          },
+          {
+            "fieldName": "Platform",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Amazon",
+              "Amazon Fire TV",
+              "Apple",
+              "Bing",
+              "Google",
+              "Meta",
+              "Pinterest",
+              "Reddit",
+              "Roku",
+              "Samsung",
+              "Snapchat",
+              "TikTok",
+              "Twitter"
+            ]
+          },
+          {
+            "fieldName": "CampaignType",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Video",
+              "Display",
+              "Search",
+              "App",
+              "YouTube",
+              "pMax",
+              "Paid Social",
+              "OTT",
+              "Organic Social"
+            ]
+          },
+          {
+            "fieldName": "CampaignObjective",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Acquisition",
+              "Awareness",
+              "Winback"
+            ]
+          },
+          {
+            "fieldName": "InventoryDevice",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Web",
+              "Mobile",
+              "OTT",
+              "Multi"
+            ]
+          },
+          {
+            "fieldName": "LandingDevice",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Web",
+              "iOS",
+              "Android",
+              "OTT",
+              "Channels",
+              "App-Multi"
+            ]
+          },
+          {
+            "fieldName": "Tactic",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Title",
+              "Brand",
+              "Conquesting",
+              "Generic",
+              "Reach",
+              "Traffic",
+              "Engagement",
+              "Views",
+              "Conversion"
+            ]
+          },
+          {
+            "fieldName": "Department",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Standard"
+            ]
+          }
+        ]
+      },
+      {
+        "objectName": "Ad",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "assetType",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Multi",
+              "Rich",
+              "Static",
+              "Search",
+              "Video"
+            ]
+          },
+          {
+            "fieldName": "destination",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "App",
+              "Web"
+            ]
+          },
+          {
+            "fieldName": "language",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "PT",
+              "DE",
+              "IT",
+              "FR",
+              "ES",
+              "EN"
+            ]
+          },
+          {
+            "fieldName": "department",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Standard"
+            ]
+          }
+        ]
+      },
+      {
+        "objectName": "Placement",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "department",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Programmatic"
+            ]
+          },
+          {
+            "fieldName": "Country",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "ARG",
+              "AUS",
+              "BRA",
+              "CAN",
+              "FRA",
+              "GSA",
+              "IRL",
+              "ITA",
+              "LATAM",
+              "MEX",
+              "ROLAC",
+              "UK"
+            ]
+          },
+          {
+            "fieldName": "sitePublisher",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "DV360",
+              "AmazonDSP",
+              "Other"
+            ]
+          },
+          {
+            "fieldName": "CampaignTarget",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Interests",
+              "Keywords",
+              "Categories",
+              "Broad18+",
+              "Multi",
+              "Other"
+            ]
+          },
+          {
+            "fieldName": "Format",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "DT",
+              "MO"
+            ]
+          },
+          {
+            "fieldName": "MediaFormat",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Standard",
+              "RichMedia",
+              "Native"
+            ]
+          },
+          {
+            "fieldName": "MediaType",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Image",
+              "Video",
+              "TrackingAd"
+            ]
+          },
+          {
+            "fieldName": "Size",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "1 x 1",
+              "250 × 250",
+              "300 × 250",
+              "320 × 320",
+              "336 × 280",
+              "120 × 600",
+              "160 × 600",
+              "300 × 600",
+              "300 × 1050",
+              "468 × 60",
+              "728 × 90",
+              "800 × 250",
+              "970 × 90",
+              "970 × 250",
+              "300 × 50",
+              "300 × 100",
+              "320 × 50",
+              "320 × 100",
+              "320 × 480",
+              "360 × 592",
+              "360 × 640",
+              "375 × 667",
+              "1280 × 720",
+              "1920 × 1080",
+              "1440 × 1080",
+              "720 × 1280",
+              "1080 × 1920",
+              "1080 × 1440",
+              "720 × 720",
+              "1080 × 1080",
+              "1920 × 1920"
+            ]
+          }
+        ]
+      },
+      {
+        "objectName": "adGroup",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "audienceTypeOld",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "LAL",
+              "In-Market",
+              "1P",
+              "Interest",
+              "Open"
+            ]
+          },
+          {
+            "fieldName": "campaignTypeOld",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Paid Social",
+              "Display",
+              "Search",
+              "Youtube",
+              "UAC",
+              "pMax"
+            ]
+          },
+          {
+            "fieldName": "countryTypesOld",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "MEX",
+              "BRA",
+              "CAN",
+              "GBR",
+              "IRL",
+              "ARG",
+              "GSA",
+              "FRA",
+              "ITA",
+              "AUS"
+            ]
+          },
+          {
+            "fieldName": "destinationOld",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Multi",
+              "Other",
+              "Android",
+              "iOS",
+              "Web"
+            ]
+          },
+          {
+            "fieldName": "placement",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Banner",
+              "Pre-Roll",
+              "Feed"
+            ]
+          },
+          {
+            "fieldName": "source",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Pinterest",
+              "Reddit",
+              "TikTok",
+              "SNAP",
+              "Bing",
+              "Google",
+              "Meta"
+            ]
+          },
+          {
+            "fieldName": "department",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Standard"
+            ]
+          }
+        ]
+      },
+      {
+        "objectName": "lineItem",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "audienceType",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Affinity",
+              "InMarket",
+              "FirstParty",
+              "ThirdParty",
+              "CustomAffinity",
+              "LALs",
+              "InstalledApps",
+              "CustomList",
+              "Multi"
+            ]
+          },
+          {
+            "fieldName": "campaignType",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Display",
+              "Video",
+              "Youtube",
+              "CTV",
+              "Audio",
+              "App"
+            ]
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "department",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Programmatic"
+            ]
+          },
+          {
+            "fieldName": "destination",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Web",
+              "App",
+              "All"
+            ]
+          },
+          {
+            "fieldName": "country",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "ARG",
+              "AUS",
+              "BRA",
+              "CAN",
+              "FRA",
+              "GSA",
+              "IRL",
+              "ITA",
+              "LATAM",
+              "MEX",
+              "ROLAC",
+              "UK"
+            ]
+          },
+          {
+            "fieldName": "sitePubliser",
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "DV360",
+              "AmazonDSP",
+              "Other"
+            ]
+          }
+        ]
+      }
+    ]
+  }

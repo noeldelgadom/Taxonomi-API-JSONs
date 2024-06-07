@@ -1,0 +1,705 @@
+{
+    "combo": [
+      {
+        "objectName": "Campaign",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "Country",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "MEX",
+              "BRA",
+              "CAN",
+              "GBR",
+              "IRL",
+              "ARG",
+              "GSA",
+              "FRA",
+              "ITA",
+              "AUS"
+            ]
+          },
+          {
+            "fieldName": "Platform",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Amazon",
+              "Amazon Fire TV",
+              "Apple",
+              "Bing",
+              "Google",
+              "Meta",
+              "Pinterest",
+              "Reddit",
+              "Roku",
+              "Samsung",
+              "Snapchat",
+              "TikTok",
+              "Twitter"
+            ]
+          },
+          {
+            "fieldName": "CampaignType",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Video",
+              "Display",
+              "Search",
+              "App",
+              "YouTube",
+              "pMax",
+              "Paid Social",
+              "OTT",
+              "Organic Social"
+            ]
+          },
+          {
+            "fieldName": "CampaignObjective",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Acquisition",
+              "Awareness",
+              "Winback"
+            ]
+          },
+          {
+            "fieldName": "InventoryDevice",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Web",
+              "Mobile",
+              "OTT",
+              "Multi"
+            ]
+          },
+          {
+            "fieldName": "LandingDevice",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Web",
+              "iOS",
+              "Android",
+              "OTT",
+              "Channels",
+              "App-Multi"
+            ]
+          },
+          {
+            "fieldName": "Tactic",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Title",
+              "Brand",
+              "Conquesting",
+              "Generic",
+              "Reach",
+              "Traffic",
+              "Engagement",
+              "Views",
+              "Conversion"
+            ]
+          },
+          {
+            "fieldName": "Wildcard",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "Department",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Standard"
+            ]
+          },
+          {
+            "fieldName": "SeasonTitle",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "SeasonID",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "objectName": "Ad",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "assetType",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Multi",
+              "Rich",
+              "Static",
+              "Search",
+              "Video"
+            ]
+          },
+          {
+            "fieldName": "contentID",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "contentName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "destination",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "App",
+              "Web"
+            ]
+          },
+          {
+            "fieldName": "language",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "PT",
+              "DE",
+              "IT",
+              "FR",
+              "ES",
+              "EN"
+            ]
+          },
+          {
+            "fieldName": "wildcard",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "department",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Standard"
+            ]
+          },
+          {
+            "fieldName": "output",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "objectName": "Placement",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "contentID",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "contentName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "wildcard",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "department",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Programmatic"
+            ]
+          },
+          {
+            "fieldName": "Country",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "ARG",
+              "AUS",
+              "BRA",
+              "CAN",
+              "FRA",
+              "GSA",
+              "IRL",
+              "ITA",
+              "LATAM",
+              "MEX",
+              "ROLAC",
+              "UK"
+            ]
+          },
+          {
+            "fieldName": "sitePublisher",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "DV360",
+              "AmazonDSP",
+              "Other"
+            ]
+          },
+          {
+            "fieldName": "sitePublisherOther",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "CampaignTarget",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Interests",
+              "Keywords",
+              "Categories",
+              "Broad18+",
+              "Multi",
+              "Other"
+            ]
+          },
+          {
+            "fieldName": "CampaignTargetOther",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "Format",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "DT",
+              "MO"
+            ]
+          },
+          {
+            "fieldName": "MediaFormat",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Standard",
+              "RichMedia",
+              "Native"
+            ]
+          },
+          {
+            "fieldName": "MediaType",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Image",
+              "Video",
+              "TrackingAd"
+            ]
+          },
+          {
+            "fieldName": "Size",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "1 x 1",
+              "250 × 250",
+              "300 × 250",
+              "320 × 320",
+              "336 × 280",
+              "120 × 600",
+              "160 × 600",
+              "300 × 600",
+              "300 × 1050",
+              "468 × 60",
+              "728 × 90",
+              "800 × 250",
+              "970 × 90",
+              "970 × 250",
+              "300 × 50",
+              "300 × 100",
+              "320 × 50",
+              "320 × 100",
+              "320 × 480",
+              "360 × 592",
+              "360 × 640",
+              "375 × 667",
+              "1280 × 720",
+              "1920 × 1080",
+              "1440 × 1080",
+              "720 × 1280",
+              "1080 × 1920",
+              "1080 × 1440",
+              "720 × 720",
+              "1080 × 1080",
+              "1920 × 1920"
+            ]
+          },
+          {
+            "fieldName": "output",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "objectName": "adGroup",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "audienceTypeOld",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "LAL",
+              "In-Market",
+              "1P",
+              "Interest",
+              "Open"
+            ]
+          },
+          {
+            "fieldName": "campaignTypeOld",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Paid Social",
+              "Display",
+              "Search",
+              "Youtube",
+              "UAC",
+              "pMax"
+            ]
+          },
+          {
+            "fieldName": "contentID",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "contentName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "countryTypesOld",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "MEX",
+              "BRA",
+              "CAN",
+              "GBR",
+              "IRL",
+              "ARG",
+              "GSA",
+              "FRA",
+              "ITA",
+              "AUS"
+            ]
+          },
+          {
+            "fieldName": "destinationOld",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Multi",
+              "Other",
+              "Android",
+              "iOS",
+              "Web"
+            ]
+          },
+          {
+            "fieldName": "placement",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Banner",
+              "Pre-Roll",
+              "Feed"
+            ]
+          },
+          {
+            "fieldName": "source",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Pinterest",
+              "Reddit",
+              "TikTok",
+              "SNAP",
+              "Bing",
+              "Google",
+              "Meta"
+            ]
+          },
+          {
+            "fieldName": "wildcard",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "department",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Standard"
+            ]
+          },
+          {
+            "fieldName": "output",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "objectName": "lineItem",
+        "separator": "|",
+        "fields": [
+          {
+            "fieldName": "audienceType",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Affinity",
+              "InMarket",
+              "FirstParty",
+              "ThirdParty",
+              "CustomAffinity",
+              "LALs",
+              "InstalledApps",
+              "CustomList",
+              "Multi"
+            ]
+          },
+          {
+            "fieldName": "campaignType",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Display",
+              "Video",
+              "Youtube",
+              "CTV",
+              "Audio",
+              "App"
+            ]
+          },
+          {
+            "fieldName": "creatorEmail",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "creatorName",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "department",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Programmatic"
+            ]
+          },
+          {
+            "fieldName": "destination",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Web",
+              "App",
+              "All"
+            ]
+          },
+          {
+            "fieldName": "output",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "wildcard",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "country",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "ARG",
+              "AUS",
+              "BRA",
+              "CAN",
+              "FRA",
+              "GSA",
+              "IRL",
+              "ITA",
+              "LATAM",
+              "MEX",
+              "ROLAC",
+              "UK"
+            ]
+          },
+          {
+            "fieldName": "sitePublisher",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "DV360",
+              "AmazonDSP",
+              "Other"
+            ]
+          },
+          {
+            "fieldName": "sitePublisherOther",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1
+          },
+          {
+            "fieldName": "campaignObjective",
+            "isFreeform": false,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Acquisition",
+              "Consideration",
+              "Awareness",
+              "Retention",
+              "Winback"
+            ]
+          },
+          {
+            "fieldName": "device",
+            "isFreeform": true,
+            "isRequired": true,
+            "order": 1,
+            "allowedValues": [
+              "Desktop",
+              "Mobile",
+              "CTV",
+              "Multi",
+              "All"
+            ]
+          }
+        ]
+      }
+    ]
+  }
