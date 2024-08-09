@@ -72,6 +72,97 @@
     isFreeform b = true
     isRequired b = false
 combo []
+  objectName = Insertion-Order
+  separator = |
+  fields []
+    fieldName = Region
+    isFreeform b = false
+    isRequired b = true
+    order n = 1
+    allowedValues [] = CA, UK, AUS, GSA, IT, FR, MX, BR, ROLAC, LATAM
+  fields []
+    fieldName = Platform
+    isFreeform b = false
+    isRequired b = true
+    order n = 2
+    allowedValues [] = Amazon, DV360
+  fields []
+    fieldName = Campaign-Type
+    isFreeform b = false
+    isRequired b = true
+    order n = 3
+    allowedValues [] = OTT, Display, Video, YouTube, CTV, DOOH
+  fields []
+    fieldName = Tactic
+    isFreeform b = false
+    isRequired b = true
+    order n = 4
+    allowedValues [] = Acquisition, Awareness, Winback, Retention 
+  fields []
+    fieldName = Channel
+    isFreeform b = false
+    isRequired b = true
+    order n = 5
+    allowedValues [] = DSP, Fire TV, Prime Video, Amazon.com, Twitch, IMDb, Echo, Kindle Fire Tablet, Streaming TV, Other(Manually Type)
+  fields []
+    fieldName = Destination 
+    isFreeform b = false
+    isRequired b = true
+    order n = 6
+    allowedValues [] = PVC, DTC, Web, DLP, NA
+  fields []
+    fieldName = Campaign-Tactic
+    isFreeform b = false
+    isRequired b = true
+    order n = 7
+    allowedValues [] = Reach, Traffic, Views, Conversion, Engagement
+  fields []
+    fieldName = Content-ID
+    isFreeform b = false
+    isRequired b = true
+    order n = 8
+    allowedValues [] =
+  fields []
+    fieldName = Content-Title
+    isFreeform b = false
+    isRequired b = true
+    order n = 9
+    allowedValues [] =
+  fields []
+    fieldName = Placement
+    isFreeform b = false
+    isRequired b = true
+    order n = 10
+    allowedValues [] = Feature Rotator, Inline Ad, Screensaver, Auction Bundle, Sponsored Tile, FreeVee, OOBE, PV Ads, Display, Performance+, H1, Class1, Cross-Screen, Display, Video Wall, Alexa Home Screen, Audio Ads, Wake screen, Static Banner, Video, Sponsored Channels, Digital Billboard, 3P, Online Video
+  fields []
+    fieldName = Range
+    isFreeform b = false
+    isRequired b = true
+    order n = 11
+    allowedValues [] = Multi-Title, Single-Title
+  fields []
+    fieldName = Inventory-Type
+    isFreeform b = false
+    isRequired b = true
+    order n = 12
+    allowedValues [] = ROS, SOV-25%, SOV-50%, SOV-100%, Open Exchange, PMP, PG
+  fields []
+    fieldName = Start-Date
+    isFreeform b = false
+    isRequired b = true
+    order n = 13
+    allowedValues [] = MM/DD/YY
+  fields []
+    fieldName = Wildcard
+    isFreeform b = true
+    isRequired b = false
+    order n = 14
+  fields []
+    fieldName = Channel-Other
+    isFreeform b = true
+    isRequired b = false
+    order n = 5
+combo []
   objectName = Ad
   separator = |
   fields []
