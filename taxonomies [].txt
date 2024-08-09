@@ -52,6 +52,84 @@
     isRequired b = false
     order n = 10
 taxonomies []
+  objectName = Insertion-Order
+  separator = |
+  fields []
+    fieldName = Region
+    isFreeform b = false
+    isRequired b = true
+    order n = 1
+  fields []
+    fieldName = Platform
+    isFreeform b = false
+    isRequired b = true
+    order n = 2
+  fields []
+    fieldName = Campaign-Type
+    isFreeform b = false
+    isRequired b = true
+    order n = 3
+  fields []
+    fieldName = Tactic
+    isFreeform b = false
+    isRequired b = true
+    order n = 4
+  fields []
+    fieldName = Channel
+    isFreeform b = false
+    isRequired b = true
+    order n = 5
+  fields []
+    fieldName = Destination 
+    isFreeform b = false
+    isRequired b = true
+    order n = 6
+  fields []
+    fieldName = Campaign-Tactic
+    isFreeform b = false
+    isRequired b = true
+    order n = 7
+  fields []
+    fieldName = Content-ID
+    isFreeform b = false
+    isRequired b = true
+    order n = 8
+  fields []
+    fieldName = Content-Title
+    isFreeform b = false
+    isRequired b = true
+    order n = 9
+  fields []
+    fieldName = Placement
+    isFreeform b = false
+    isRequired b = true
+    order n = 10
+  fields []
+    fieldName = Range
+    isFreeform b = false
+    isRequired b = true
+    order n = 11
+  fields []
+    fieldName = Inventory-Type
+    isFreeform b = false
+    isRequired b = true
+    order n = 12
+  fields []
+    fieldName = Start-Date
+    isFreeform b = false
+    isRequired b = true
+    order n = 13
+  fields []
+    fieldName = Wildcard
+    isFreeform b = true
+    isRequired b = false
+    order n = 14
+  fields []
+    fieldName = Channel-Other
+    isFreeform b = true
+    isRequired b = false
+    order n = 5
+taxonomies []
   objectName = Ad
   separator = |
   fields []
