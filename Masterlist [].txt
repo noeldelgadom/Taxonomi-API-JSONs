@@ -40,6 +40,73 @@
     isRequired b = true
     allowedValues [] = Standard
 masterlist []
+  objectName = Insertion-Order
+  fields []
+    fieldName = Region
+    isRequired b = true
+    order n = 1
+    allowedValues [] = CA, UK, AUS, GSA, IT, FR, MX, BR, ROLAC, LATAM
+  fields []
+    fieldName = Platform
+    isRequired b = true
+    order n = 2
+    allowedValues [] = Amazon, DV360
+  fields []
+    fieldName = Campaign-Type
+    isRequired b = true
+    order n = 3
+    allowedValues [] = OTT, Display, Video, YouTube, CTV, DOOH
+  fields []
+    fieldName = Tactic
+    isRequired b = true
+    order n = 4
+    allowedValues [] = Acquisition, Awareness, Winback, Retention 
+  fields []
+    fieldName = Channel
+    isRequired b = true
+    order n = 5
+    allowedValues [] = DSP, Fire TV, Prime Video, Amazon.com, Twitch, IMDb, Echo, Kindle Fire Tablet, Streaming TV, Other(Manually Type)
+  fields []
+    fieldName = Destination 
+    isRequired b = true
+    order n = 6
+    allowedValues [] = PVC, DTC, Web, DLP, NA
+  fields []
+    fieldName = Campaign-Tactic
+    isRequired b = true
+    order n = 7
+    allowedValues [] = Reach, Traffic, Views, Conversion, Engagement
+  fields []
+    fieldName = Content-ID
+    isRequired b = true
+    order n = 8
+    allowedValues [] =
+  fields []
+    fieldName = Content-Title
+    isRequired b = true
+    order n = 9
+    allowedValues [] =
+  fields []
+    fieldName = Placement
+    isRequired b = true
+    order n = 10
+    allowedValues [] = Feature Rotator, Inline Ad, Screensaver, Auction Bundle, Sponsored Tile, FreeVee, OOBE, PV Ads, Display, Performance+, H1, Class1, Cross-Screen, Display, Video Wall, Alexa Home Screen, Audio Ads, Wake screen, Static Banner, Video, Sponsored Channels, Digital Billboard, 3P, Online Video
+  fields []
+    fieldName = Range
+    isRequired b = true
+    order n = 11
+    allowedValues [] = Multi-Title, Single-Title
+  fields []
+    fieldName = Inventory-Type
+    isRequired b = true
+    order n = 12
+    allowedValues [] = ROS, SOV-25%, SOV-50%, SOV-100%, Open Exchange, PMP, PG
+  fields []
+    fieldName = Start-Date
+    isRequired b = true
+    order n = 13
+    allowedValues [] = MM/DD/YY
+masterlist []
   objectName = Ad
   fields []
     fieldName = language
