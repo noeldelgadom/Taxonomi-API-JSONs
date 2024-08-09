@@ -1,6 +1,5 @@
-﻿MasterlistObject []
+﻿masterlist []
   objectName = Campaign
-  separator = |
   fields []
     fieldName = Country
     isRequired b = true
@@ -9,69 +8,60 @@
   fields []
     fieldName = Platform
     isRequired b = true
-    order n = 1
+    order n = 2
     allowedValues [] = Amazon, Amazon Fire TV, Apple, Bing, Google, Meta, Pinterest, Reddit, Roku, Samsung, Snapchat, TikTok, Twitter
   fields []
     fieldName = CampaignType
     isRequired b = true
-    order n = 1
+    order n = 3
     allowedValues [] = Video, Display, Search, App, YouTube, pMax, Paid Social, OTT, Organic Social
   fields []
     fieldName = CampaignObjective
     isRequired b = true
-    order n = 1
+    order n = 4
     allowedValues [] = Acquisition, Awareness, Winback
   fields []
     fieldName = InventoryDevice
     isRequired b = true
-    order n = 1
+    order n = 5
     allowedValues [] = Web, Mobile, OTT, Multi
   fields []
     fieldName = LandingDevice
     isRequired b = true
-    order n = 1
+    order n = 6
     allowedValues [] = Web, iOS, Android, OTT, Channels, App-Multi
   fields []
     fieldName = Tactic
     isRequired b = true
-    order n = 1
+    order n = 7
     allowedValues [] = Title, Brand, Conquesting, Generic, Reach, Traffic, Engagement, Views, Conversion
   fields []
     fieldName = Department
     isRequired b = true
-    order n = 1
     allowedValues [] = Standard
-MasterlistObject []
+masterlist []
   objectName = Ad
-  separator = |
+  fields []
+    fieldName = language
+    isRequired b = true
+    order n = 3
+    allowedValues [] = PT, DE, IT, FR, ES, EN
   fields []
     fieldName = assetType
     isRequired b = true
-    order n = 1
+    order n = 4
     allowedValues [] = Multi, Rich, Static, Search, Video
   fields []
     fieldName = destination
     isRequired b = true
-    order n = 1
+    order n = 5
     allowedValues [] = App, Web
   fields []
-    fieldName = language
-    isRequired b = true
-    order n = 1
-    allowedValues [] = PT, DE, IT, FR, ES, EN
-  fields []
     fieldName = department
     isRequired b = true
-    order n = 1
     allowedValues [] = Standard
-MasterlistObject []
+masterlist []
   objectName = Placement
-  separator = |
-  fields []
-    fieldName = department
-    isRequired b = true
-    order n = 1
-    allowedValues [] = Programmatic
   fields []
     fieldName = Country
     isRequired b = true
@@ -80,105 +70,117 @@ MasterlistObject []
   fields []
     fieldName = sitePublisher
     isRequired b = true
-    order n = 1
+    order n = 4
     allowedValues [] = DV360, AmazonDSP, Other
-  fields []
-    fieldName = CampaignTarget
-    isRequired b = true
-    order n = 1
-    allowedValues [] = Interests, Keywords, Categories, Broad18+, Multi, Other
-  fields []
-    fieldName = Format
-    isRequired b = true
-    order n = 1
-    allowedValues [] = DT, MO
   fields []
     fieldName = MediaFormat
     isRequired b = true
-    order n = 1
+    order n = 5
     allowedValues [] = Standard, RichMedia, Native
   fields []
     fieldName = MediaType
     isRequired b = true
-    order n = 1
+    order n = 6
     allowedValues [] = Image, Video, TrackingAd
+  fields []
+    fieldName = CampaignTarget
+    isRequired b = true
+    order n = 7
+    allowedValues [] = Interests, Keywords, Categories, Broad18+, Multi, Other
+  fields []
+    fieldName = Format
+    isRequired b = true
+    order n = 8
+    allowedValues [] = DT, MO
   fields []
     fieldName = Size
     isRequired b = true
-    order n = 1
-    allowedValues [] = 1 x 1, 250 × 250, 300 × 250, 320 × 320, 336 × 280, 120 × 600, 160 × 600, 300 × 600, 300 × 1050, 468 × 60, 728 × 90, 800 × 250, 970 × 90, 970 × 250, 300 × 50, 300 × 100, 320 × 50, 320 × 100, 320 × 480, 360 × 592, 360 × 640, 375 × 667, 1280 × 720, 1920 × 1080,1440 × 1080, 720 × 1280, 1080 × 1920,1080 × 1440, 720 × 720, 1080 × 1080, 1920 × 1920
-MasterlistObject []
-  objectName = adGroup
-  separator = |
-  fields []
-    fieldName = audienceTypeOld
-    isRequired b = true
-    order n = 1
-    allowedValues [] = LAL, In-Market, 1P, Interest, Open
-  fields []
-    fieldName = campaignTypeOld
-    isRequired b = true
-    order n = 1
-    allowedValues [] = Paid Social, Display, Search, Youtube, UAC, pMax
-  fields []
-    fieldName = countryTypesOld
-    isRequired b = true
-    order n = 1
-    allowedValues [] = MEX, BRA, CAN, GBR, IRL, ARG, GSA, FRA, ITA, AUS
-  fields []
-    fieldName = destinationOld
-    isRequired b = true
-    order n = 1
-    allowedValues [] = Multi, Other, Android, iOS, Web
-  fields []
-    fieldName = placement
-    isRequired b = true
-    order n = 1
-    allowedValues [] = Banner, Pre-Roll, Feed
-  fields []
-    fieldName = source
-    isRequired b = true
-    order n = 1
-    allowedValues [] = Pinterest, Reddit, TikTok, SNAP, Bing, Google, Meta
-  fields []
-    fieldName = department
-    isRequired b = true
-    order n = 1
-    allowedValues [] = Standard
-MasterlistObject []
-  objectName = lineItem
-  separator = |
-  fields []
-    fieldName = audienceType
-    isRequired b = true
-    order n = 1
-    allowedValues [] = Affinity, InMarket, FirstParty, ThirdParty, CustomAffinity, LALs, InstalledApps, CustomList, Multi
-  fields []
-    fieldName = campaignType
-    isRequired b = true
-    order n = 1
-    allowedValues [] = Display, Video, Youtube, CTV, Audio, App
-  fields []
-    fieldName = creatorEmail
-    isRequired b = true
-    order n = 1
+    order n = 9
+    allowedValues [] = 1 x 1, 250 x 250, 300 x 250, 320 x 320, 336 x 280, 120 x 600, 160 x 600, 300 x 600, 300 x 1050, 468 x 60, 728 x 90, 800 x 250, 970 x 90, 970 x 250, 300 x 50, 300 x 100, 320 x 50, 320 x 100, 320 x 480, 360 x 592, 360 x 640, 375 x 667, 1280 x 720, 1920 x 1080,1440 x 1080, 720 x 1280, 1080 x 1920,1080 x 1440, 720 x 720, 1080 x 1080, 1920 x 1920
   fields []
     fieldName = department
     isRequired b = true
     order n = 1
     allowedValues [] = Programmatic
+masterlist []
+  objectName = adGroup
   fields []
-    fieldName = destination
+    fieldName = countryTypesOld
     isRequired b = true
-    order n = 1
-    allowedValues [] = Web, App, All
+    order n = 3
+    allowedValues [] = MEX, BRA, CAN, GBR, IRL, ARG, GSA, FRA, ITA, AUS
+  fields []
+    fieldName = platform
+    isRequired b = true
+    order n = 4
+    allowedValues [] = Pinterest, Reddit, TikTok, SNAP, Bing, Google, Meta
+  fields []
+    fieldName = campaignTypeOld
+    isRequired b = true
+    order n = 5
+    allowedValues [] = Paid Social, Display, Search, Youtube, UAC, pMax
+  fields []
+    fieldName = campaignObjectiveOld
+    isRequired b = true
+    order n = 6
+    allowedValues [] = Display, Paid Social, pMax, Search, UAC, Youtube
+  fields []
+    fieldName = audienceTypeOld
+    isRequired b = true
+    order n = 7
+    allowedValues [] = LAL, In-Market, 1P, Interest, Open
+  fields []
+    fieldName = placement
+    isRequired b = true
+    order n = 8
+    allowedValues [] = Banner, Pre-Roll, Feed
+  fields []
+    fieldName = destinationOld
+    isRequired b = true
+    order n = 9
+    allowedValues [] = Multi, Other, Android, iOS, Web
+  fields []
+    fieldName = department
+    isRequired b = true
+    allowedValues [] = Standard
+masterlist []
+  objectName = lineItem
   fields []
     fieldName = country
     isRequired b = true
     order n = 1
     allowedValues [] = ARG, AUS, BRA, CAN, FRA, GSA, IRL, ITA, LATAM, MEX, ROLAC, UK
   fields []
-    fieldName = sitePubliser
+    fieldName = sitePublisher
     isRequired b = true
-    order n = 1
+    order n = 2
     allowedValues [] = DV360, AmazonDSP, Other
+  fields []
+    fieldName = campaignObjective
+    isRequired b = true
+    order n = 3
+    allowedValues [] = Acquisition, Consideration, Awareness, Retention, Winback
+  fields []
+    fieldName = campaignType
+    isRequired b = true
+    order n = 4
+    allowedValues [] = Display, Video, Youtube, CTV, Audio, App
+  fields []
+    fieldName = destination
+    isRequired b = true
+    order n = 5
+    allowedValues [] = Web, App, All
+  fields []
+    fieldName = audienceType
+    isRequired b = true
+    order n = 6
+    allowedValues [] = Affinity, InMarket, FirstParty, ThirdParty, CustomAffinity, LALs, InstalledApps, CustomList, Multi
+  fields []
+    fieldName = device
+    isRequired b = true
+    order n = 7
+    allowedValues [] = Desktop, Mobile, CTV, Multi, All
+  fields []
+    fieldName = department
+    isRequired b = true
+    allowedValues [] = Programmatic
